@@ -1,0 +1,67 @@
+h1 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.content_details{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  max-height: 30vh;
+}
+
+.content_search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 40px;
+}
+
+.search{
+  width: 50vw;
+  text-align: center;
+}
+
+.player_list {
+	width: 100%;
+	background: #ddd;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	padding: 1rem;
+	margin: 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	max-height: calc(70vh - 70px);
+	overflow-y: auto;
+}
+
+.img_miniatura {
+  max-height: 20px;
+}
+
+.img_player {
+  max-height: 30vh
+}
+
+li {
+	margin-left: 30px;
+	padding: 1rem 0;
+	border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+li:first-child {
+	padding-top: 0;
+}
+
+li:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
