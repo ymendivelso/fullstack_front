@@ -17,7 +17,7 @@ npm start
 
 ## Running
 
-Open the file `http://localhost:8080/` in your browser
+Open `http://localhost:8080/` in your browser
 
 
 To create a production build:
