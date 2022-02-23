@@ -3,6 +3,8 @@ Prueba fullstack_front rama master
 
 ## Building and running on localhost
 
+Carpeta local del proyecto
+
 First install dependencies:
 
 ```
